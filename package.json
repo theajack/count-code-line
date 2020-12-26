@@ -1,8 +1,8 @@
 {
     "name": "count-code-line",
     "version": "0.0.1",
-    "description": "功能全面、多端支持的汉字拼音笔画js库，支持多音字、繁体字、火星文",
-    "main": "index.html",
+    "description": "Count lines and characters for your project",
+    "main": "index.js",
     "author": "theajack <contact@theajack.com>",
     "license": "MIT",
     "keywords": [
@@ -41,7 +41,7 @@
         "babel-loader": "^8.0.6",
         "easy-icon": "^1.0.2",
         "element-ui": "^2.10.1",
-        "eslint": "^6.7.2",
+        "eslint": "^6.8.0",
         "eslint-loader": "^3.0.3",
         "eslint-plugin-html": "^6.0.0",
         "eslint-plugin-vue": "^7.2.0",
@@ -67,5 +67,10 @@
         "hooks": {
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
+    },
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "jschardet": "^2.2.1",
+        "single-line-log": "^1.1.2"
     }
 }
