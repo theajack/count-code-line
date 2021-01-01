@@ -86,6 +86,7 @@ module.exports = {
         '.zip', '.rar', '.png', '.jpg', '.jpeg', '.gif', '.bmp', '.mp3', '.wma', '.wav', '.mp4', '.flv', '.mov', '.avi', '.wmv', '.rmvb ', '.ogg', '.avi', '.ppt', '.pptx', '.doc','.docx','.xls','.xlsx','.psd','.ttf','.fon','.exe','.msi',
     ],
     output: 'count.output.json', // 默认的输出结果文件
+    outputTrace: '', // 配置输出 trace 结果的文件，默认不输出
     encodings: [ // 支持的文件编码，对于不支持的文件将忽略
         'ascii',
         'utf8',

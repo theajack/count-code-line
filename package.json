@@ -1,6 +1,6 @@
 {
     "name": "count-code-line",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Count lines and characters for your project",
     "bin": "bin/count-code.js",
     "main": "lib/count.js",
@@ -10,8 +10,7 @@
         "count code line",
         "计算代码行数"
     ],
-    "scripts": {
-    },
+    "scripts": {},
     "devDependencies": {
         "@babel/core": "^7.5.5",
         "@babel/preset-env": "^7.5.5",

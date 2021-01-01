@@ -88,6 +88,7 @@ module.exports = {
         '.zip','.rar','.png','.jpg','.jpeg','.gif','.bmp','.mp3','.wma','.wav', '.mp4','.flv','.mov','.avi','.wmv','.rmvb','.ogg','.avi','.ppt','.pptx', '.doc','.docx','.xls','.xlsx','.psd','.ttf','.fon','.exe','.msi',
     ],
     output:'count.output.json', // The default output result file
+    outputTrace: '', // Configure the file for outputting trace results, not output by default
     encodings: [// Supported file encodings, will be ignored for unsupported files
         'ascii',
         'utf8',
