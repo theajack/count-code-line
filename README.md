@@ -2,7 +2,7 @@
 
 Tool to count the number of lines and characters of project
 
-[计算项目代码行数和字符串的工具]
+[计算项目代码行数和字符串的工具] | [[中文](https://github.com/theajack/count-code-line/blob/master/README.cn.md)]
 
 ## 0. Features
 
