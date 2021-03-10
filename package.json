@@ -1,6 +1,6 @@
 {
     "name": "count-code-line",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Count lines and characters for your project",
     "bin": "bin/count-code.js",
     "main": "lib/count.js",
@@ -28,6 +28,7 @@
     },
     "dependencies": {
         "chalk": "^4.1.0",
+        "commander": "^7.1.0",
         "jschardet": "^2.2.1",
         "single-line-log": "^1.1.2"
     }

@@ -63,6 +63,10 @@ Successful operation will output the `count.output.json` file in the root direct
 ```js
 const count = require('count-code-line');
 count();
+// or
+count({
+    // ...configs in  3.1
+});
 ```
 
 ## 3. Configuration file
@@ -94,7 +98,8 @@ module.exports = {
         'utf8',
         'utf-8',
         'unicode'
-    ]
+    ],
+    ignoreEmptyLine: false,
 };
 ```
 
